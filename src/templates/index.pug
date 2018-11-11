@@ -1,0 +1,14 @@
+extends /layouts/main_layout
+block vars
+	- var title = "canvas circles";
+block content
+	.CirclesContainer
+		.ColorPickup#colorPickup
+			.container
+				.row
+					.col-12.col-sm-6
+						canvas.ColorPickup_select(width="600" height="600")
+					.col-12.col-sm-6
+						canvas.ColorPickup_target(width="600" height="50")
+block page_bottom
+	script(src="./js/index.js")

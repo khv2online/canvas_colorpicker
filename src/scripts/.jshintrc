@@ -1,0 +1,11 @@
+{
+    "browser": true,
+    "node": false,
+    "unused": true,
+    "jquery": true,
+    "esversion": 6,
+    "predef": [
+    	"Swiper",
+    	"_"
+    ]
+}

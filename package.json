@@ -1,0 +1,29 @@
+{
+	"name": "alarstudios's_test_1",
+	"version": "0.0.0",
+	"description": "",
+	"author": "Vladimir Pikhtin",
+	"license": "MIT",
+	"dependencies": {
+		"del": "^3.0.0",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-coffee": "^3.0.3",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssnano": "^2.1.3",
+		"gulp-if": "^2.0.2",
+		"gulp-include": "^2.3.1",
+		"gulp-notify": "^3.2.0",
+		"gulp-plumber": "^1.2.0",
+		"gulp-pug": "^4.0.1",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-stylus": "^2.7.0",
+		"gulp-uglify": "^3.0.1"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.24.7",
+		"gulp-debug": "^4.0.0",
+		"gulp-html-validator": "0.0.5"
+	},
+	"stylintrc": "src/styles/.stylintrc"
+}
